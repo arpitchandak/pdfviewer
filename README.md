@@ -1,2 +1,2 @@
 # pdfviewer
-![Demo](Sample_ScreenRecording.mp4)
+![Demo](sample.gif)
