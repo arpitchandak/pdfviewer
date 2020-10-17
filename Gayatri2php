@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     <meta charset="UTF-8">
+  <meta name="description" content="Free Web tutorials">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="author" content="John Doe">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+
+    <title>Sign Up!!</title>
+  </head>
+  <body>
+    <div class="container">
+  <span>Create Account</span>
+  <form action="" method="post">
+    <label for="Email">Email<input type="text"></label>
+    <label for="Username">Username<input type="text"></label>
+    <label for="Password">Password<input type="password"></label>
+    <input type="button" value="Sign Up">
+    <a href="#">I already have an account</a>
+  </form>
+  
+</div>
+
+<!-- EXTRA -->
+
+
+  
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <style type="text/css">
+      body {
+  font-family: 'Hammersmith One', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #2292A4;
+}
+.container {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 410px; width: 350px;
+  background: #FFF;
+  border-radius: 10px;
+  box-shadow: 0 15px 30px 0 rgba(0,0,0,0.11),
+              0 5px 15px 0 rgba(0,0,0,0.08);
+  text-align: center;
+  padding: 15px 0;
+}
+
+.container span {
+  display: inline-block;
+  padding: 10px 0;
+  font-size: 25px;
+}
+.container form {
+  padding: 0 35px;
+}
+.container input[type="text"],
+.container input[type="password"] {
+  font-family: 'Hammersmith One', sans-serif;
+  width: 100%;
+  padding: 10px 0;
+  margin-bottom: 20px;
+  border: none;
+  font-size: 14px;
+  border-bottom: 2px solid #9FB1BC;
+}
+.container input[type="text"]:focus,
+.container input[type="password"]:focus {
+  outline: none;
+  border-color: #3D348B;
+}
+.container form label {
+  display: block;
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 9px;
+  letter-spacing: 2px;
+  color: #9FB1BC;
+}
+
+.container input[type="button"] {
+  width: 100%;
+  font-family: 'Hammersmith One', sans-serif;
+  text-transform: uppercase;
+  margin-top: 10px;
+  padding: 10px;
+  border: 2px solid #3D348B;
+  border-radius: 5px;
+  background: #3D348B;
+  color: #FFF;
+  cursor: pointer;
+  transition: opacity .5s;
+}
+.container input[type="button"]:hover {
+  opacity: .8;
+}
+.container form a {
+  display: block;
+  margin-top: 10px;
+  text-align: right;
+  color: #9FB1BC;
+  font-size: 12px;
+}
+.container form a:hover {
+  color: #000;
+}
+
+/* EXTRA */
+#link {
+  position: absolute;
+  right: 0; left: 0;
+  bottom: 10px;
+  display: block;
+  font-family: 'Concert One', sans-serif;
+  text-align: center;
+  color: #000;
+  opacity: 0.3;
+}
+#link:hover {
+  opacity: 1; 
+  text-decoration: none;
+}
+    </style>
+  </body>
+</html>
