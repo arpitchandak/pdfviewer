@@ -1,0 +1,32 @@
+import java.applet.*;
+import java.awt.*;
+/**
+<applet code=Eg_applet height=500 width=500>
+</applet>
+*/
+public class Eg_applet extends Applet 
+{
+	public void paint(Graphics g)
+	{
+		g.drawOval(95,95,210,210);//face
+		g.setColor(Color.BLACK);
+		g.fillOval(95,95,210,210);//face
+		g.drawOval(100,100,200,200);//face
+		g.drawOval(150,150,20,40);//eye1
+		g.drawOval(230,150,20,40);//eye2
+		g.drawArc(192,210,15,8,0,-180);//nose
+		g.drawArc(170,220,60,40,0,-180);//smile
+		g.setColor(Color.YELLOW);
+		g.fillOval(100,100,200,200);//face
+		g.setColor(Color.BLACK);
+		g.fillOval(150,150,20,40);//eye1
+		g.fillOval(230,150,20,40);//eye2
+		g.fillArc(192,210,15,8,0,-180);//nose
+		g.setColor(Color.RED);
+		g.fillArc(170,220,60,40,0,-180);//smile
+		g.setColor(Color.BLACK);
+		g.drawArc(148,140,24,5,0,180);//brow1
+		g.drawArc(228,140,24,5,0,180);//brow2
+		
+	}
+}
